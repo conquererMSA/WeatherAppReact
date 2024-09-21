@@ -1,6 +1,10 @@
+import Header from "./components/Header/Header";
+
 function App() {
     return (
-        <div className="text-red-600 font-bold">Weather App</div>
+        <div className="">
+            <Header/>
+        </div>
     );
 }
 
