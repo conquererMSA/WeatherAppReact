@@ -1,7 +1,6 @@
 import Pin from "../../assets/pin.svg"
 import Cloud from "../../assets/cloud.svg"
 export default function WeatherHeadline(){
-       console.log()
        return (
         <div>
         <div className="max-md:flex items-center justify-between md:-mt-10">

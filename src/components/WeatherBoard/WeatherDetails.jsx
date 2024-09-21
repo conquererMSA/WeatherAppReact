@@ -4,7 +4,6 @@ import Cloud from "../../assets/icons/cloud.svg"
 import Humidity from "../../assets/icons/humidity.svg"
 import Wind from "../../assets/icons/wind.svg"
 export default function WeatherDetails(){
-       console.log()
        return (
         <div>
         <p className="text-sm lg:text-lg font-bold uppercase mb-8">Thunderstorm with light drizzle</p>
