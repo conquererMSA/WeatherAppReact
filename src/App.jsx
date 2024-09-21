@@ -1,10 +1,11 @@
 import Header from "./components/Header/Header";
 import WeatherBoard from "./components/WeatherBoard/WeatherBoard";
+import WeatherProvider from "./Context/WeatherContext";
 import useWeather from "./Hooks/FetchWeather";
 
 function App() {
-    useWeather();
     return (
+        <WeatherProvider>
         <div className="grid place-items-center h-screen">
             <Header/>
             <main>
@@ -13,6 +14,7 @@ function App() {
                 </section>
             </main>
         </div>
+        </WeatherProvider>
     );
 }
 
